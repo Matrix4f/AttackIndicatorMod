@@ -1,0 +1,92 @@
+#header {
+    -fx-font: bold 16 'Helvetica';
+    -fx-text-fill: #36362D;
+}
+
+#paragraph {
+    -fx-font: 12 'Helvetica';
+    -fx-text-fill: #36362D;
+}
+
+#vbox, .tab-pane .tab-content-area {
+    -fx-background-color: #F0F0E6;
+    -fx-text-fill: #36362D;
+}
+
+.combo-box {
+    -fx-background-color: #EFEDE2;
+    -fx-effect: dropshadow(gaussian, #DFDDD4, 6, 0, 0,0)
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-background-color: #F1F1E8;
+    -fx-text-fill: #616151;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #E9E9D9;
+}
+
+.combo-box-popup .list-view .list-cell:selected {
+    -fx-underline: true;
+}
+
+.text-area {
+    -fx-text-fill: #36362D;
+    -fx-background-color: #EFEDE2;
+    -fx-effect: dropshadow(gaussian, #DFDDD4, 6, 0, 0,0)
+}
+
+.text-field {
+    -fx-text-fill: #36362D;
+    -fx-prompt-text-fill: #5F5F51;
+    -fx-background-color: linear-gradient(to right, #EFEDE2, #ECEAE0);
+    -fx-effect: dropshadow(gaussian, #DFDDD4, 6, 0, 0,0)
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #EFEDDB, #DEDDD3);
+    -fx-effect: dropshadow(gaussian, #DCDED3, 10, .3, 0,0)
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #EFEDDB, #D5D4BE);
+    -fx-effect: dropshadow(gaussian, #E3E1BE, 15, .3, 0,0)
+}
+
+.table-view{ -fx-background-color: transparent; }
+.table-view:focused { -fx-background-color: transparent; }
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #EDEADC, #D8D5C8);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #36362D;
+}
+
+.table-view .column-header { -fx-background-color: transparent; }
+
+.table-view .table-cell {
+    -fx-text-fill: #36362D;
+}
+
+.table-row-cell{
+    -fx-effect: innershadow(gaussian, #C4C0B9, 3, .5, 0, 0);
+    -fx-background-color: -fx-table-cell-border-color, #EFEDE5;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: -fx-table-cell-border-color, #E2E0D9;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #E8E1CD;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
