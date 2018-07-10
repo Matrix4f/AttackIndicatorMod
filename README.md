@@ -1,3 +1,5 @@
+**Note** Unfortunately, I was unable to recover the source code of the actual ASM transformers that I put together, but I hope to find it lying around somewhere soon. Currently, the binary of the compiled bytecode transformer system can be found at `src/data.jar`.
+
 # AttackIndicatorMod
 A Minecraft mod installer for an improved cooldown attack indicator.
 
